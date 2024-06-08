@@ -1,0 +1,18 @@
+self cumple la funcion del this, hace referencia al objeto en si, el contexto donde estoy creando el objeto
+
+sintaxis de una clase
+
+class Animal:
+  especie = "mamifero"   # atributo
+
+def __init__(self, nombre, raza):  # método constructor -> caracteristicas para crear un objeto
+   self.nombre = nombre
+   self.raza = raza
+
+def mostrar(self):    #metodo
+   print(f"nombre = {self.nombre} raza = {self.raza}")
+
+
+perro1 = Animal ("lola", "salchicha")
+
+perro1.mostrar()

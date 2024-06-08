@@ -1,0 +1,11 @@
+CREAR UNA NUEVA RAMA EN GIT
+
+COMANDOS
+
+git branch --> asegurarnos de estar parados en main
+
+git checkout -b "nombre_de_la_rama" ----> creo la rama
+
+Automaticamente se posiciona sobre la nueva rama, y apartir de ese entonces se van a guardar los cambios solo en la rama creada, no en la main
+
+git log --oneline ---> podemos ver los commits
